@@ -1,4 +1,11 @@
-# podedex
+# pokedex
+<!-- 
+REFERENCIAS
+https://github.com/Pagnet/desafio-front-end
+https://sg.portal-pokemon.com/play/pokedex
+https://pokemondb.net/pokedex/all  
+https://www.pokemon.com/br/pokedex/
+-->
 
 ## Project setup
 ```
