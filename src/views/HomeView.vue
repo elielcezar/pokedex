@@ -1,6 +1,8 @@
 <template>  
-  <div class="list-pokemons">   
-    <PokeCard :pokemon="pokemon" v-for="pokemon in pokeList" :key="pokemon.name" />        
+  <div class="container">
+    <div class="list-pokemons">       
+      <PokeCard :pokemon="pokemon" v-for="pokemon in pokeList" :key="pokemon.name" />
+    </div>
   </div>  
 </template>
 
@@ -30,3 +32,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.list-pokemons{  
+  display: flex;
+  flex-wrap: wrap;
+}
+</style>

@@ -1,9 +1,15 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link>
-  </nav>
+  <MainHeader />
   <router-view/>
 </template>
+
+<script>
+import MainHeader from './components/MainHeader.vue'
+
+export default{
+components: {MainHeader}
+}
+</script>
 
 <style lang="scss">
 
